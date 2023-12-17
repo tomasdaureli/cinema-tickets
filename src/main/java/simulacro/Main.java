@@ -1,11 +1,11 @@
 package simulacro;
 
+import simulacro.view.MainWindow;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-    }
-
-    public static void addDummyData() {
-        
+        MainWindow window = new MainWindow();
+        window.showGUI();
     }
 }
